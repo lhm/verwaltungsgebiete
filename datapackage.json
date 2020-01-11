@@ -1,0 +1,39 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "vg250-states",
+      "path": "data/VG250_LAN.geojson",
+      "profile": "data-resource",
+      "schema": {},
+      "title": "German States 1:250000",
+      "format": "geojson",
+      "description": "https://en.wikipedia.org/wiki/States_of_Germany"
+    },
+    {
+      "name": "vg250-districts",
+      "path": "data/VG250_KRS.geojson",
+      "profile": "data-resource",
+      "schema": {},
+      "title": "German Counties 1:250000",
+      "format": "geojson",
+      "description": "https://en.wikipedia.org/wiki/Landkreis"
+    }
+  ],
+  "name": "german-administrative-areas",
+  "description": "German Administrative Areas converted to GeoJSON format.",
+  "title": "German Administrative Areas",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "title": "Bundesamt für Kartographie und Geodäsie (BKG)",
+      "path": "https://gdz.bkg.bund.de/index.php/default/catalog/product/view/id/788/s/verwaltungsgebiete-1-250-000-ebenen-stand-01-01-vg250-ebenen-01-01/category/8/?___store=default"
+    }
+  ],
+  "licenses": [
+    {
+      "path": "https://www.govdata.de/dl-de/by-2-0",
+      "title": "Data licence Germany – attribution – version 2.0"
+    }
+  ]
+}
