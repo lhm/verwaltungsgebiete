@@ -1,8 +1,13 @@
+FILES = VG250_KRS VG250_LAN
+TARGETS = $(addprefix data/, $(addsuffix .geojson, $(FILES)))
+
+all: $(TARGETS)
+
+data/%.geojson: download
+	./scripts/convert.sh $(basename $(notdir $@))
+
 download: venv
 	./venv/bin/python scripts/download.py
-
-data/vg250-landkreise.geojson: download
-	./scripts/convert.sh
 
 venv: scripts/requirements.txt
 	[ -d ./venv ] || python3 -m venv venv
