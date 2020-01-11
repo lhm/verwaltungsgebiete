@@ -3,3 +3,4 @@ venv
 *.pyc
 *.sqlite
 *.geojson
+!data/VG250_*.geojson
