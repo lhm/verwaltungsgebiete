@@ -5,7 +5,9 @@
       "name": "vg250-states",
       "path": "data/VG250_LAN.geojson",
       "profile": "data-resource",
-      "schema": {},
+      "schema": {
+        "fields": []
+      },
       "title": "German States 1:250000",
       "format": "geojson",
       "description": "https://en.wikipedia.org/wiki/States_of_Germany"
@@ -14,7 +16,9 @@
       "name": "vg250-districts",
       "path": "data/VG250_KRS.geojson",
       "profile": "data-resource",
-      "schema": {},
+      "schema": {
+        "fields": []
+      },
       "title": "German Counties 1:250000",
       "format": "geojson",
       "description": "https://en.wikipedia.org/wiki/Landkreis"
